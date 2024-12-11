@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 2rem auto;
+    text-align: center;
+    width: 75%;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+#userTaskInput {
+    border-width: 0;
+    border-bottom: 1px solid black;
+    font-size: 1.3rem;
+    outline: none;
+}
+
+#addTask {
+    background-color: green;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.todos {
+    margin-top: 1rem;
+}
+
+.li-styling {
+    font-size: 1.5rem;
+    list-style: none;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
